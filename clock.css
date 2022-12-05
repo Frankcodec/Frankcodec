@@ -1,0 +1,154 @@
+body{
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-repeat: no-repeat;
+	font-family: sans-serif;
+	padding-bottom: 400px;
+	background-size: cover;
+}
+#clock{
+	border-radius: 50%;
+	width: 355px;
+	height: 355px;
+	position: relative;
+	border: 9px double #000;
+	background-color: #3D3C3C;
+	padding-top: 8px;
+	padding-right: 5px;
+}
+#sub{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	margin-top: 5px;
+}
+#hours{
+	height: 65px;
+	transform-origin: top;
+	position: absolute;
+	width: 6px;
+	z-index: 3;
+	background-color: red;
+}
+#minutes{
+	height: 105px;
+	transform-origin: top;
+	position: absolute;
+	width: 6px;
+	z-index: 2;
+	background-color: blue;
+}
+#seconds{
+	height: 125px;
+	transform-origin: top;
+	width: 6px;
+	background-color: green;
+	z-index: 1;
+}
+#take{
+
+}
+body{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+#twelve{
+	height: 175px;
+	width: 8px;
+	position: absolute;
+	background: linear-gradient(to top, orange, #3D3C3C, #3D3C3C, #3D3C3C, #3D3C3C);
+	transform-origin: top;
+	transform: rotateZ(-180deg);
+}
+#nine{
+	height: 175px;
+	width: 8px;
+	position: absolute;
+	background: linear-gradient(to top, orange, #3D3C3C, #3D3C3C, #3D3C3C, #3D3C3C);
+	transform-origin: top;
+	transform: rotateZ(-90deg);
+}
+#three{
+	height: 175px;
+	width: 8px;
+	position: absolute;
+	background: linear-gradient(to top, orange, #3D3C3C, #3D3C3C, #3D3C3C, #3D3C3C);
+	transform-origin: top;
+	transform: rotateZ(90deg);
+}
+#six{
+	height: 175px;
+	width: 8px;
+	position: absolute;
+	background: linear-gradient(to top, orange, #3D3C3C, #3D3C3C, #3D3C3C, #3D3C3C);
+	transform-origin: top;
+	transform: rotateZ(0deg);
+}
+#two{
+	height: 175px;
+	width: 8px;
+	position: absolute;
+	background: linear-gradient(to top, #fff, #3D3C3C, #3D3C3C, #3D3C3C, #3D3C3C);
+	transform-origin: top;
+	transform: rotateZ(-240deg);
+}
+#four{
+	height: 175px;
+	width: 8px;
+	position: absolute;
+	background: linear-gradient(to top, #fff, #3D3C3C, #3D3C3C, #3D3C3C, #3D3C3C);
+	transform-origin: top;
+	transform: rotateZ(-60deg);
+}
+#eight{
+	height: 175px;
+	width: 8px;
+	position: absolute;
+	background: linear-gradient(to top, #fff, #3D3C3C, #3D3C3C, #3D3C3C, #3D3C3C);
+	transform-origin: top;
+	transform: rotateZ(60deg);
+}
+#ten{
+	height: 175px;
+	width: 8px;
+	position: absolute;
+	background: linear-gradient(to top, #fff, #3D3C3C, #3D3C3C, #3D3C3C, #3D3C3C);
+	transform-origin: top;
+	transform: rotateZ(-120deg);
+}
+#five{
+	height: 175px;
+	width: 8px;
+	position: absolute;
+	background: linear-gradient(to top, #fff, #3D3C3C, #3D3C3C, #3D3C3C, #3D3C3C);
+	transform-origin: top;
+	transform: rotateZ(-30deg);
+}
+#eleven{
+	height: 175px;
+	width: 8px;
+	position: absolute;
+	background: linear-gradient(to top, #fff, #3D3C3C, #3D3C3C, #3D3C3C, #3D3C3C);
+	transform-origin: top;
+	transform: rotateZ(150deg);
+}
+#one{
+	height: 175px;
+	width: 8px;
+	position: absolute;
+	background: linear-gradient(to top, #fff, #3D3C3C, #3D3C3C, #3D3C3C, #3D3C3C);
+	transform-origin: top;
+	transform: rotateZ(210deg);
+}
+#seven{
+	height: 175px;
+	width: 8px;
+	position: absolute;
+	background: linear-gradient(to top, #fff, #3D3C3C, #3D3C3C, #3D3C3C, #3D3C3C);
+	transform-origin: top;
+	transform: rotateZ(30deg);
+}
+|| six.value === win && four.value === win && five.value === win || seven.value === win && eight.value === win && nine.value === win || one.value === win && four.value === win && seven.value === win || eight.value === win && two.value === win && five.value === win  || nine.value === win && six.value === win && three.value === win || one.value === win && five.value === win && nine.value === win || three.value === win && five.value === win && seven.value === win
